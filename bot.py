@@ -5,8 +5,8 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 from telegram.error import TelegramError
 
 # ⚙️ НАСТРОЙКИ
-BOT_TOKEN = os.environ
-CHANNEL_ID = os.environ
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+CHANNEL_ID = os.environ["CHANNEL_ID"]
 CHANNEL_LINK = "https://t.me/onlygens_ai"
 SOURCE_PHOTO = "AgACAgIAAxkBAAMFaqXUlWZGUNa2bop9nzarjtms7TsAAkIfaxtGOTFJX6ZV4iIlGK0BAAMCAAN3AAM9BA"
 
